@@ -1,7 +1,7 @@
 let celRadio = document.getElementById("celsius");
 let farRadio = document.getElementById("farenheit");
-let convertBtn = document.getElementById("convertBtn")
-let textBox = document.getElementById("textBox")
+let convertBtn = document.getElementById("convertBtn");
+let textBox = document.getElementById("textBox");
 let convertedVal; 
 convertBtn.onclick = function(){
     switch(true){
@@ -17,7 +17,7 @@ convertBtn.onclick = function(){
             alert("Please enter a value you wish to convert!");
             break;
         case !farRadio.checked || !celRadio.checked:
-            alert("Please select a check box!")
+            alert("Please select a check box!");
     }
 }
 function convertTempToFarenheit(value){
